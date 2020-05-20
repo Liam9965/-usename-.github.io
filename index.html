@@ -1,23 +1,39 @@
-<<!DOCTYPE html>
-<html>
-   <head>
-      <title>HTML img Tag</title>
-   </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
 
-   <body>
-   	<a> "Hello World 2020/05/06" </a>
-   	<p>
-     <a href="https://www.youtube.com/">test1</a>
-     <p>
-     <a href="https://www.tcust.edu.tw/bin/home.php/">test2</a>
-     <p>
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/MJyXTdaknCw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	<p>
-	<iframe src="https://giphy.com/embed/eeYsmvAODQ3sVklWJA" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/espn-nba-warriors-eeYsmvAODQ3sVklWJA">via GIPHY</a></p>
-	<p>
-	<table style="border:3px #cccccc solid;" cellpadding="10" border='1'>
-<tr><td>這是表格欄位</td><td>這是表格欄位</td></tr>
-<tr><td>這是表格欄位</td><td>這是表格欄位</td></tr>
-</table>
-   </body>
+<style>
+  #b1 {
+  background-color:teal;
+  }
+  #b2 {
+  background-color:	#FF8C8C;
+  }
+  #b3 {
+  background-color: #ADADFF;
+  }
+  .important{color:red;background-color:#FFFF00}
+</style>
+
+</head>
+<body>
+
+  <div id="nav"></div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+  $("#nav").load( "nav.html");
+  </script>
+
+  <p>index page=</p>
+	<a href="test0425.html"><input type="button" id="b3" type="button" value="to test0425!"></a><br>
+	<a href="test0425-2.html"><input type="button" id="b2" type="button" value="to test0425-2!"></a><br>
+    <a href="test4.html"><input type="button" id="b1" type="button" value="to test4!"></a><br>
+
+    <p class="important">IMPORTANT</p>
+    <!-- <h1>hello world.</h1> -->
+    <p><u class="important">underline</u></p>
+	
+</body>
 </html>
