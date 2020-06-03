@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<form method="get" action="">
+		<label for="phone">Your Name:</label><br><br>
+		<input type="text" name="id" /><br><br>
+		<label for="phone">Your Password:(8 digits)</label><br><br>
+		<input type="password" pattern="[a-zA-A0-9]{8,}"><br><br>
+		<label for="phone">Your phone number:</label><br><br>
+		<input type="tel" id="phone" name="phone"placeorder="0912-123123" pattern="[0-9]{4}-[0-9]{6}"><br><br>
+		<input type="submit" value="submit" /><br><br>
+	</form>
+	<textarea cols="50" rows="5">
+　hi today is Wednesday
+</textarea>
+<form>
+<select name="YourLocation">
+　<option value="Taipei">台北</option>
+　<option value="Taoyuan">桃園</option>
+　<option value="Hsinchu">新竹</option>
+　<option value="Miaoli">苗栗</option>
+　...
+</select>
+</form>
+<form>
+請選擇居住區域<br>
+<input type="radio" name="location" value="Taipei"> 台北<br>
+<input type="radio" name="location" value="Taoyuan"> 桃園<br>
+...
+</form>
+<form>
+請勾選你的興趣<br>
+<input type="checkbox" value="Travel" name="Interest"> 旅遊<br>
+<input type="checkbox" value="Movie" name="Interest"> 電影<br>
+<input type="checkbox" value="Food" name="Interest"> 美食
+</form>
+</body>
+</html>
